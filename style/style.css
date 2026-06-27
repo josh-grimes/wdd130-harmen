@@ -1,1 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Indie+Flower&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Indie+Flower&display=swap");
+body {
+  margin: 0;
+  background: #fcfcfc;
+}
+header img {
+  height: 75px;
+  width: 75px;
+  margin: 10px;
+  border-radius: 40px;
+}
+header {
+  background: #bf0603;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+header a {
+  text-decoration: none;
+  color: #fece85;
+  font-size: 1.5em;
+  border: #fcfcfc solid 2px;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.home {
+    grid-column: 3/4;
+}
+
+h1 {
+  text-align: center;
+  font-family: Cause;
+  color: #bf0603;
+  font-size: 3.5em;
+}
+p {
+  font-family: "Indie Flower";
+  text-align: center;
+  font-size: 2em;
+}
+
+footer img {
+  height: 75px;
+  width: 75px;
+  margin: 10px;
+}
+footer {
+  background: #bf0603;
+}
+
+#main_img {
+  text-align: center;
+  margin-left: 300px;
+}
