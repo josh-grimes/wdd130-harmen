@@ -25,7 +25,7 @@ header a {
   text-align: center;
 }
 
-.home {
+#home {
   grid-column: 3/4;
 }
 
@@ -90,10 +90,10 @@ footer {
   margin-bottom: 25px;
   overflow: hidden;
 }
-.card img{
+.card img {
   width: 100%;
   height: 400px;
-  object-fit: cover;            
+  object-fit: cover;
   object-position: center;
   display: block;
 }
@@ -103,7 +103,7 @@ footer {
 }
 
 #spagetti {
- grid-column: 2/3;
+  grid-column: 2/3;
 }
 
 #alfredo {
@@ -117,5 +117,40 @@ footer {
 }
 
 #meatball {
+  grid-column: 6/7;
+}
+
+#cake {
+  grid-column: 2/3;
+}
+
+#ice_cream {
+  grid-column: 4/5;
+}
+#cookie {
+  grid-column: 2/3;
+}
+#gummy_worm {
+  grid-column: 4/5;
+}
+
+#oreo {
+  grid-column: 6/7;
+}
+#cheetos {
+  grid-column: 2/3;
+}
+
+#chex {
+  grid-column: 4/5;
+}
+#pringle {
+  grid-column: 2/3;
+}
+#pringle2 {
+  grid-column: 4/5;
+}
+
+#lays {
   grid-column: 6/7;
 }
